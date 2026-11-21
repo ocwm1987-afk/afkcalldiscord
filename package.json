@@ -1,0 +1,17 @@
+{
+  "name": "discord-vc-keeper",
+  "version": "1.0.0",
+  "description": "A Discord bot that joins and maintains a voice channel connection.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.22.1",
+    "dotenv": "^16.6.1"
+  }
+}
